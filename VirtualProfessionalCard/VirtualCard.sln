@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualCard", "VirtualCard.csproj", "{48FF5854-053D-479C-9F28-0F183868A7C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "..\DataLibrary\DataLibrary.csproj", "{BE46C1CA-C98B-4DEE-A5D6-6E8EDB43690F}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "vcDB", "..\vcDB\vcDB.sqlproj", "{545FA83B-3A62-42A9-9F38-2AE2DFB55895}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{48FF5854-053D-479C-9F28-0F183868A7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48FF5854-053D-479C-9F28-0F183868A7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48FF5854-053D-479C-9F28-0F183868A7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE46C1CA-C98B-4DEE-A5D6-6E8EDB43690F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE46C1CA-C98B-4DEE-A5D6-6E8EDB43690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE46C1CA-C98B-4DEE-A5D6-6E8EDB43690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE46C1CA-C98B-4DEE-A5D6-6E8EDB43690F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545FA83B-3A62-42A9-9F38-2AE2DFB55895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545FA83B-3A62-42A9-9F38-2AE2DFB55895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545FA83B-3A62-42A9-9F38-2AE2DFB55895}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{545FA83B-3A62-42A9-9F38-2AE2DFB55895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545FA83B-3A62-42A9-9F38-2AE2DFB55895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545FA83B-3A62-42A9-9F38-2AE2DFB55895}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
